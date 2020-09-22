@@ -5,4 +5,7 @@ SSL Verifier for Node.js &amp; Let's Encrypt &amp; Certbot
 
 ## Index
 1. Run `sudo certbot certonly --manual`
-2. [Run Initial Server and create directory](init.js)
+2. Create directory named `acme-challenge` inside `.well-known` folder
+3. Create file in `./.well-known/acme-challenge/a-string`, and insert `a-challenge` in the file.
+4. [Run Initial Server and create directory](init.js)
+5. You're now done!
